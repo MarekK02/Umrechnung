@@ -36,7 +36,7 @@ def Feet_in_Cm(feet):
     return cm
 
 #cm in feet
-def Cm_in_feet(cm):
+def Cm_in_Feet(cm):
     feet = (cm / 30.48)
     return feet
 
