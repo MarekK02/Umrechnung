@@ -10,47 +10,47 @@ def Bar_in_KPA(n):
     return result  # Das was die Funktion dir zurückgibt (return)
 
 
-# celsius in Fahrenheit
+# celsius in fahrenheit
 def Celsius_in_Fahrenheit(celsius):
     fahrenheit = celsius * 1.8 + 32
     return fahrenheit
 
-
+# fahrenheit in celsius
 def Fahrenheit_in_Celsius(fahrenheit):
     celsius = (fahrenheit - 32) * 5 / 9
     return celsius
 
-
+# kw in ps
 def KW_in_PS(kw):
     ps = (kw * 1.63)
     return ps
 
-
+# ps in kw
 def PS_in_KW(ps):
     kw = (ps * 0.74)
     return kw
 
-
+# feet in cm
 def Feet_in_Cm(feet):
     cm = (feet * 30.48)
     return cm
 
-
+#cm in feet
 def Cm_in_feet(cm):
     feet = (cm / 30.48)
     return feet
 
-
+# zoll in cm
 def Zoll_in_Cm(zoll):
     cm = (zoll * 2.54)
     return cm
 
-
+# cm in zoll
 def Cm_in_Zoll(cm):
     zoll = (cm / 2.54)
     return zoll
 
-
+# Auswahl der Umrechnungen
 print("Gebe bitte:")
 print("(1) für die Berechnung von KPA in Bar ein")
 print("(2) für die Berechnung von Bar in KPA ein")
