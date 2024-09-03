@@ -1,13 +1,13 @@
 # kpa in bar umrechnung
-def KPA_in_Bar(n):
-    result = n * 100
-    return result
+def KPA_in_Bar(kpa):
+    bar = kpa * 100
+    return bar
 
 
 # bar in kpa umrechnung
-def Bar_in_KPA(n):
-    result = n / 100
-    return result  # Das was die Funktion dir zurückgibt (return)
+def Bar_in_KPA(bar):
+    kpa = bar / 100
+    return kpa  # Das was die Funktion dir zurückgibt (return)
 
 
 # celsius in fahrenheit
