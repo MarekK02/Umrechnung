@@ -31,14 +31,14 @@ def PS_in_KW(ps):
     return kw
 
 # feet in cm
-def Feet_in_Cm(feet):
-    cm = (feet * 30.48)
+def Feet_in_Cm(Feet):
+    cm = (Feet * 30.48)
     return cm
 
 #cm in feet
 def Cm_in_Feet(cm):
-    feet = (cm / 30.48)
-    return feet
+    Feet = (cm / 30.48)
+    return Feet
 
 # zoll in cm
 def Zoll_in_Cm(zoll):
